@@ -5,7 +5,7 @@
 * OpenEBS Volumes created
 
 ### Steps
-1. Run kubectl apply -f [openebs-monitoring-pg.yaml](https://raw.githubusercontent.com/Ab-hishek/openebs-monitoring/master/openebs-monitoring-pg.yaml)`
+1. Run kubectl apply -f [openebs-monitoring-pg.yaml]`(https://raw.githubusercontent.com/Ab-hishek/openebs-monitoring/master/openebs-monitoring-pg.yaml)
 2. Run `kubectl get pods -o wide` to verify and to get where Prometheus and Grafana instances are running.
 3. Run `kubectl get nodes -o wide` to get the node’s IP.
 4. Run `kubectl get svc` and note down the port allocated to Prometheus and Grafana services.
