@@ -22,16 +22,16 @@ http://localhost:3000/d/5d86b1fd-b2e7-4bb2-befa-4dae5b6167d6/storage-pool-dashbo
 * Name - Storage Pool Dashboard  
 * UID- 5d86b1fd-b2e7-4bb2-befa-4dae5b6167d6  
 * Query Params :-  
-1. var-pool  
-2. var-kind  
+  1. var-pool  
+  2. var-kind  
 
 For LocalPV dashboard, the Grafana URL looks like this:  
 http://localhost:3000/d/2e59785a-af05-465e-b9a3-fca65a0e8572/localpv-dashboard?refresh=1m&var-openebs_volume=kubera-demo-minio-pv-claim&var-pvcname=kubera-demo-minio-pv-claim&var-namespace=default&var-storageclass=openebs-hostpath&var-type=local-hostpath&var-orgId=1&orgId=1  
 * Name - LocalPV dashboard  
 * UID - 2e59785a-af05-465e-b9a3-fca65a0e8572  
 * Query Params :-  
-1. var-openebs_volume  
-2. var-pvcname  
-3. var-namespace  
-4. var-storageclass  
-5. var-type  
+  1. var-openebs_volume  
+  2. var-pvcname  
+  3. var-namespace  
+  4. var-storageclass  
+  5. var-type  
