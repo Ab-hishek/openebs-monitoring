@@ -102,14 +102,14 @@ repeat the process for all dashboard files
 5. Login into it(default username and password is admin), add data source name as DS_OPENEBS_PROMETHEUS, select datasource type Prometheus and pass the `<nodeip:nodeport>`of Prometheus in the url field and click on run and test.
 6. Now go to the next tab (Dashboard) and import the desired dashboard.You should be able to get preloaded dashboard of prometheus.
 7. For the dashboards, some changes need to be made in their respective json files. Replace the query in the dashboard's template section in the following way:   
-replace `storage_pool_claim` with `openebs_io_cstor_pool_cluster` or `openebs_io_storage_pool_claim` depending on the OpenEBS version   
-replace `cstor_pool` with `openebs_io_cstor_pool_instance` or `openebs_io_cstor_pool` depending on the OpenEBS version   
-replace `openebs_pv` with `openebs_io_persistent_volume`   
-replace `openebs_pvc` with `openebs_io_persistent_volume_claim`   
+- replace `storage_pool_claim` with `openebs_io_cstor_pool_cluster` or `openebs_io_storage_pool_claim` depending on the OpenEBS version   
+- replace `cstor_pool` with `openebs_io_cstor_pool_instance` or `openebs_io_cstor_pool` depending on the OpenEBS version   
+- replace `openebs_pv` with `openebs_io_persistent_volume`   
+- replace `openebs_pvc` with `openebs_io_persistent_volume_claim`   
 
 For localpv dashboard:   
-replace `openebs_pv` with `persistentvolume`   
-replace `openebs_pvc` with `persistentvolumeclaim`  
+- replace `openebs_pv` with `persistentvolume`   
+- replace `openebs_pvc` with `persistentvolumeclaim`  
 
 8. To create openebs dashboard, go to the import and paste the json from this folder.
 9. You should be able to get the graph of openebs volumes in the UI.
